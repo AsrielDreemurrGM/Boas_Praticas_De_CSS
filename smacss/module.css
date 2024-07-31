@@ -27,6 +27,7 @@
 
 .mensagem-is-error {
     border-color: red;
+    color: red;
     background-color: rgb(255, 226, 226);
 }
 
