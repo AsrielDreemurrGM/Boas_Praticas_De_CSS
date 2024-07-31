@@ -1,0 +1,13 @@
+/* SMACSS PROPÕE DIDIVIDR O CSS EM CINCO CATEGORIAS: BASE, LAYOUT, MODULOS, ESTADO E TEMA */
+/* BASE: REGRAS PADRÃO PARA ELEMENTOS (COMO RESETS) */
+/* UTILIZADO SOMENTE TAGS (NOMES) DOS ELEMENTOS */
+/* NÃO UTILIZADO IDS OU CLASSES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
