@@ -1,0 +1,17 @@
+// MESMO CÓDIGO CSS, PORÉM REESCRITO COM METODOLOGIA BEM E UTILIZANDO O SASS
+.form {
+    margin: 40px;
+
+    &__control {
+        margin-bottom: 16px;
+        font-family: sans-serif;
+    }
+
+    &__submit {
+        cursor: pointer;
+
+        &--sending {
+            cursor: wait;
+        }
+    }
+}
