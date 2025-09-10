@@ -1,31 +1,31 @@
-/* MÓDULOS: INDEPENDENTE DO LAYOUT QUE FAZEM PARTE*/
-/* A APARENCIA DEVE SER A MESMA */
-/* SÃO COMPONENTES REUTILIZÁVEIS */
+/* MODULES: INDEPENDENT OF THE LAYOUT THEY BELONG TO */
+/* APPEARANCE SHOULD BE CONSISTENT */
+/* REUSABLE COMPONENTS */
 
 .title {
     font-size: 48px;
 }
 
-.mensagem {
-    /* OCUPA 100% DO .CONTAINER - FUNÇÃO DO LAYOUT.CSS */
+.message {
+    /* TAKES 100% OF .CONTAINER - LAYOUT FUNCTION */
     padding: 8px;
     border: 1px solid #333;
     border-radius: 8px;
 }
 
-.mensagem-titulo {
+.message-title {
     font-size: 18px;
 }
 
-.mensagem-conteudo {
+.message-content {
     font-size: 14px;
 }
 
-/* NOS MODULOS TAMBÉM TEMOS O CONCEITO DE ESTADOS */
-/* POR EXEMPLO, UMA CLASSE PARA MENSAGEM DE ERRO */
-/* O SMACSS SUGERE UTILIZAR DO PREFIXO "IS" (IS = É) */
+/* MODULES ALSO INCLUDE STATE CONCEPTS */
+/* FOR EXAMPLE, A CLASS FOR ERROR MESSAGES */
+/* SMACSS SUGGESTS USING THE PREFIX "IS" (IS = TRUE) */
 
-.mensagem-is-error {
+.message-is-error {
     border-color: red;
     color: red;
     background-color: rgb(255, 226, 226);
